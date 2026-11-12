@@ -1,0 +1,25 @@
+{
+  "id": "cable-triceps-extension",
+  "name": {
+    "en": "Cable triceps extension",
+    "ru": "Разгибание на трицепс в блоке"
+  },
+  "short": {
+    "en": "Cable triceps",
+    "ru": "Трицепс (блок)"
+  },
+  "aliases": [
+    "cable triceps extension"
+  ],
+  "equipment": [
+    "cable"
+  ],
+  "weights": {
+    "triceps": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

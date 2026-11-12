@@ -1,0 +1,28 @@
+{
+  "id": "plate-pinch-hold",
+  "name": {
+    "en": "Plate pinch hold",
+    "ru": "Удержание блинов щипковым хватом"
+  },
+  "short": {
+    "en": "Plate pinch",
+    "ru": "Щипок блинов"
+  },
+  "aliases": [
+    "plate pinch hold"
+  ],
+  "equipment": [
+    "plates"
+  ],
+  "weights": {
+    "finger_flexors": 0.7,
+    "wrist_flexors": 0.4,
+    "wrist_finger_extensors": 0.2,
+    "finger_tendons": 0.1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

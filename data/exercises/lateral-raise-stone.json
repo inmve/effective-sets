@@ -1,0 +1,29 @@
+{
+  "id": "lateral-raise-stone",
+  "name": {
+    "en": "Lateral raise (stone)",
+    "ru": "Махи в стороны с камнем"
+  },
+  "short": {
+    "en": "Stone lateral raise",
+    "ru": "Махи с камнем"
+  },
+  "aliases": [
+    "lateral raise (stone)"
+  ],
+  "equipment": [
+    "stone"
+  ],
+  "weights": {
+    "mid_lower_trap": 0.1,
+    "upper_trap": 0.3,
+    "rotator_cuff": 0.3,
+    "front_delts": 0.3,
+    "side_delts": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

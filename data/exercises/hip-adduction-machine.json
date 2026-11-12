@@ -1,0 +1,25 @@
+{
+  "id": "hip-adduction-machine",
+  "name": {
+    "en": "Hip adduction (machine)",
+    "ru": "Сведение бедра в тренажёре"
+  },
+  "short": {
+    "en": "Hip adduction",
+    "ru": "Сведение бедра"
+  },
+  "aliases": [
+    "hip adduction (machine)"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "weights": {
+    "adductors": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

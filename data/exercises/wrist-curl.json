@@ -1,0 +1,23 @@
+{
+  "id": "wrist-curl",
+  "name": {
+    "en": "Wrist curl",
+    "ru": "Сгибания запястий"
+  },
+  "short": {
+    "en": "Wrist curl",
+    "ru": "Запястья"
+  },
+  "aliases": [
+    "wrist curl"
+  ],
+  "equipment": [],
+  "weights": {
+    "wrist_flexors": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

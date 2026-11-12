@@ -1,0 +1,36 @@
+{
+  "id": "chin-up",
+  "name": {
+    "en": "Chin-up",
+    "ru": "Подтягивания обратным хватом"
+  },
+  "short": {
+    "en": "Chin-ups",
+    "ru": "Подтяг. обратным"
+  },
+  "aliases": [
+    "chin-up"
+  ],
+  "equipment": [
+    "bar"
+  ],
+  "weights": {
+    "finger_flexors": 0.4,
+    "wrist_flexors": 0.4,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.1,
+    "brachioradialis": 0.2,
+    "biceps": 0.8,
+    "brachialis": 0.5,
+    "lats": 1,
+    "mid_lower_trap": 0.5,
+    "upper_trap": 0.1,
+    "rear_delts": 0.3,
+    "abs_core": 0.3
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

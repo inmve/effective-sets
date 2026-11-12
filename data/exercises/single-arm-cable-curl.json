@@ -1,0 +1,28 @@
+{
+  "id": "single-arm-cable-curl",
+  "name": {
+    "en": "Single-arm cable curl",
+    "ru": "Сгибание на бицепс одной рукой в блоке"
+  },
+  "short": {
+    "en": "1-arm cable curl",
+    "ru": "Бицепс 1 рукой"
+  },
+  "aliases": [
+    "single-arm cable curl"
+  ],
+  "equipment": [
+    "cable"
+  ],
+  "weights": {
+    "wrist_flexors": 0.3,
+    "brachioradialis": 0.2,
+    "biceps": 1,
+    "brachialis": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

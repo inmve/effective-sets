@@ -1,0 +1,13 @@
+{
+  "name": "effective-sets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open exercise base with fractional per-muscle weights, effective-set volume, and a shareable end-of-workout card. Runs in the browser.",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-bundle.js",
+    "test": "node --test",
+    "lint": "node tools/validate.js",
+    "serve": "python3 -m http.server 4173"
+  }
+}

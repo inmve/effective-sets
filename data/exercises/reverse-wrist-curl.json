@@ -1,0 +1,23 @@
+{
+  "id": "reverse-wrist-curl",
+  "name": {
+    "en": "Reverse wrist curl",
+    "ru": "Обратные сгибания запястий"
+  },
+  "short": {
+    "en": "Reverse wrist curl",
+    "ru": "Обратн. запястья"
+  },
+  "aliases": [
+    "reverse wrist curl"
+  ],
+  "equipment": [],
+  "weights": {
+    "wrist_finger_extensors": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

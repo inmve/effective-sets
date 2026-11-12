@@ -1,0 +1,26 @@
+{
+  "id": "hip-abduction-machine",
+  "name": {
+    "en": "Hip abduction (machine)",
+    "ru": "Отведение бедра в тренажёре"
+  },
+  "short": {
+    "en": "Hip abduction",
+    "ru": "Отведение бедра"
+  },
+  "aliases": [
+    "hip abduction (machine)"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "weights": {
+    "glutes": 0.3,
+    "abductors": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

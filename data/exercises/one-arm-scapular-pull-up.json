@@ -1,0 +1,33 @@
+{
+  "id": "one-arm-scapular-pull-up",
+  "name": {
+    "en": "One-arm scapular pull-up",
+    "ru": "Лопаточные подтягивания на одной руке"
+  },
+  "short": {
+    "en": "1-arm scap pulls",
+    "ru": "Лопаточные 1 рукой"
+  },
+  "aliases": [
+    "one-arm scapular pull-up"
+  ],
+  "equipment": [
+    "bar"
+  ],
+  "weights": {
+    "finger_flexors": 0.6,
+    "wrist_flexors": 0.5,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.3,
+    "lats": 0.5,
+    "mid_lower_trap": 1,
+    "upper_trap": 0.2,
+    "rear_delts": 0.4,
+    "abs_core": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

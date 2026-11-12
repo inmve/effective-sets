@@ -1,0 +1,28 @@
+{
+  "id": "band-external-rotation",
+  "name": {
+    "en": "Band external rotation",
+    "ru": "Наружная ротация с резиной"
+  },
+  "short": {
+    "en": "External rotation",
+    "ru": "Наружн. ротация"
+  },
+  "aliases": [
+    "band external rotation"
+  ],
+  "equipment": [
+    "band"
+  ],
+  "weights": {
+    "mid_lower_trap": 0.2,
+    "upper_trap": 0.1,
+    "rear_delts": 0.3,
+    "rotator_cuff": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

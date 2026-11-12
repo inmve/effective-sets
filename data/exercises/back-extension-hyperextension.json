@@ -1,0 +1,27 @@
+{
+  "id": "back-extension-hyperextension",
+  "name": {
+    "en": "Back extension (hyperextension)",
+    "ru": "Гиперэкстензия"
+  },
+  "short": {
+    "en": "Back extension",
+    "ru": "Гиперэкстензия"
+  },
+  "aliases": [
+    "back extension (hyperextension)"
+  ],
+  "equipment": [
+    "bench"
+  ],
+  "weights": {
+    "lower_back": 1,
+    "glutes": 0.6,
+    "hamstrings": 0.5
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}
