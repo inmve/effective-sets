@@ -1,0 +1,29 @@
+{
+  "id": "cable-lateral-raise",
+  "name": {
+    "en": "Cable lateral raise",
+    "ru": "Махи в стороны в блоке"
+  },
+  "short": {
+    "en": "Cable lateral raise",
+    "ru": "Махи (блок)"
+  },
+  "aliases": [
+    "cable lateral raise"
+  ],
+  "equipment": [
+    "cable"
+  ],
+  "weights": {
+    "mid_lower_trap": 0.1,
+    "upper_trap": 0.3,
+    "rear_delts": 0.3,
+    "rotator_cuff": 0.3,
+    "side_delts": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

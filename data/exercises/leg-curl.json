@@ -1,0 +1,27 @@
+{
+  "id": "leg-curl",
+  "name": {
+    "en": "Leg curl",
+    "ru": "Сгибание ног в тренажёре"
+  },
+  "short": {
+    "en": "Leg curl",
+    "ru": "Сгибание ног"
+  },
+  "aliases": [
+    "leg curl"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "weights": {
+    "glutes": 0.1,
+    "hamstrings": 1,
+    "calves": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

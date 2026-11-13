@@ -1,0 +1,26 @@
+{
+  "id": "hollow-hold",
+  "name": {
+    "en": "Hollow hold",
+    "ru": "Лодочка (hollow hold)"
+  },
+  "short": {
+    "en": "Hollow hold",
+    "ru": "Лодочка"
+  },
+  "aliases": [
+    "hollow hold"
+  ],
+  "equipment": [],
+  "weights": {
+    "front_delts": 0.2,
+    "abs_core": 1,
+    "hip_flexors": 0.4,
+    "quads": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "calf-raise",
+  "name": {
+    "en": "Calf raise",
+    "ru": "Подъёмы на носки"
+  },
+  "short": {
+    "en": "Calf raises",
+    "ru": "Подъёмы на носки"
+  },
+  "aliases": [
+    "calf raise"
+  ],
+  "equipment": [],
+  "weights": {
+    "calves": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

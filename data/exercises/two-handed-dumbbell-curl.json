@@ -1,0 +1,28 @@
+{
+  "id": "two-handed-dumbbell-curl",
+  "name": {
+    "en": "Two-handed dumbbell curl",
+    "ru": "Сгибание с гантелей двумя руками"
+  },
+  "short": {
+    "en": "Two-hand DB curl",
+    "ru": "Бицепс гантелью"
+  },
+  "aliases": [
+    "two-handed dumbbell curl"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "weights": {
+    "wrist_flexors": 0.3,
+    "brachioradialis": 0.2,
+    "biceps": 1,
+    "brachialis": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

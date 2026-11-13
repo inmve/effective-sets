@@ -1,0 +1,31 @@
+{
+  "id": "overhead-press",
+  "name": {
+    "en": "Overhead press",
+    "ru": "Жим над головой"
+  },
+  "short": {
+    "en": "Overhead press",
+    "ru": "Жим над головой"
+  },
+  "aliases": [
+    "overhead press"
+  ],
+  "equipment": [],
+  "weights": {
+    "wrist_flexors": 0.2,
+    "mid_lower_trap": 0.1,
+    "upper_trap": 0.3,
+    "rotator_cuff": 0.2,
+    "chest": 0.2,
+    "triceps": 0.6,
+    "front_delts": 1,
+    "side_delts": 0.5,
+    "abs_core": 0.3
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

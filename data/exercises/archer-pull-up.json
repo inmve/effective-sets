@@ -1,0 +1,36 @@
+{
+  "id": "archer-pull-up",
+  "name": {
+    "en": "Archer pull-up",
+    "ru": "Подтягивания лучника"
+  },
+  "short": {
+    "en": "Archer pull-ups",
+    "ru": "Лучник"
+  },
+  "aliases": [
+    "archer pull-up"
+  ],
+  "equipment": [
+    "bar"
+  ],
+  "weights": {
+    "finger_flexors": 0.5,
+    "wrist_flexors": 0.4,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.2,
+    "brachioradialis": 0.4,
+    "biceps": 0.7,
+    "brachialis": 0.4,
+    "lats": 1,
+    "mid_lower_trap": 0.6,
+    "upper_trap": 0.1,
+    "rear_delts": 0.4,
+    "abs_core": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

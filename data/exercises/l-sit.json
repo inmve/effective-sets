@@ -1,0 +1,30 @@
+{
+  "id": "l-sit",
+  "name": {
+    "en": "L-sit",
+    "ru": "Уголок"
+  },
+  "short": {
+    "en": "L-sit",
+    "ru": "Уголок"
+  },
+  "aliases": [
+    "l-sit"
+  ],
+  "equipment": [],
+  "weights": {
+    "lats": 0.1,
+    "mid_lower_trap": 0.2,
+    "upper_trap": 0.1,
+    "triceps": 0.1,
+    "front_delts": 0.2,
+    "abs_core": 1,
+    "hip_flexors": 0.8,
+    "quads": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

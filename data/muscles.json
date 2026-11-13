@@ -1,0 +1,363 @@
+{
+  "version": "2026-06-04",
+  "note": "Frozen taxonomy of 25 muscle groups. Order matters: it is the column order of volume tables. 'body' lists the views where the group has a shape on the body map; an empty list means it is shown as a number only.",
+  "groups": [
+    {
+      "id": "grip_forearm",
+      "name": {
+        "en": "Grip / forearm",
+        "ru": "Хват и предплечье"
+      }
+    },
+    {
+      "id": "arms_pull",
+      "name": {
+        "en": "Arms (pull)",
+        "ru": "Руки (тяга)"
+      }
+    },
+    {
+      "id": "back_pull",
+      "name": {
+        "en": "Back / pull",
+        "ru": "Спина и тяга"
+      }
+    },
+    {
+      "id": "push",
+      "name": {
+        "en": "Push",
+        "ru": "Жим"
+      }
+    },
+    {
+      "id": "core",
+      "name": {
+        "en": "Core",
+        "ru": "Кор"
+      }
+    },
+    {
+      "id": "legs",
+      "name": {
+        "en": "Legs",
+        "ru": "Ноги"
+      }
+    }
+  ],
+  "muscles": [
+    {
+      "id": "finger_flexors",
+      "group": "grip_forearm",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Grip (fingers)",
+        "ru": "Хват (пальцы)"
+      }
+    },
+    {
+      "id": "wrist_flexors",
+      "group": "grip_forearm",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Wrist flexors",
+        "ru": "Сгибатели запястья"
+      },
+      "short": {
+        "en": "Wrist flexors",
+        "ru": "Сгиб. запястья"
+      }
+    },
+    {
+      "id": "wrist_finger_extensors",
+      "group": "grip_forearm",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Forearm extensors",
+        "ru": "Разгибатели предплечья"
+      },
+      "note": "Antagonists; elbow health. Reverse wrist curl lives here.",
+      "short": {
+        "en": "Forearm ext.",
+        "ru": "Разгибатели пред."
+      }
+    },
+    {
+      "id": "finger_tendons",
+      "group": "grip_forearm",
+      "body": [],
+      "name": {
+        "en": "Finger tendons",
+        "ru": "Связки пальцев"
+      },
+      "note": "Not a muscle: crimp-specific load on the finger pulleys (A2–A4). 1.0 = hard one-arm crimp, open-hand hang 0.2, regular pull-ups ~0.1. Tendons recover slower than muscles: watch both stimulus and overload."
+    },
+    {
+      "id": "brachioradialis",
+      "group": "arms_pull",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Brachioradialis",
+        "ru": "Плечелучевая"
+      },
+      "note": "Neutral / reverse-grip elbow flexor, distinct from the forearm flexors.",
+      "short": {
+        "en": "Brachiorad.",
+        "ru": "Плечелучевая"
+      }
+    },
+    {
+      "id": "biceps",
+      "group": "arms_pull",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Biceps",
+        "ru": "Бицепс"
+      }
+    },
+    {
+      "id": "brachialis",
+      "group": "arms_pull",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Brachialis",
+        "ru": "Брахиалис"
+      }
+    },
+    {
+      "id": "lats",
+      "group": "back_pull",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Lats",
+        "ru": "Широчайшие"
+      }
+    },
+    {
+      "id": "mid_lower_trap",
+      "group": "back_pull",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Mid back",
+        "ru": "Середина спины"
+      },
+      "note": "Scapular retraction / depression plus rhomboids."
+    },
+    {
+      "id": "upper_trap",
+      "group": "back_pull",
+      "body": [
+        "front",
+        "back"
+      ],
+      "name": {
+        "en": "Upper traps",
+        "ru": "Верх трапеции"
+      }
+    },
+    {
+      "id": "rear_delts",
+      "group": "back_pull",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Rear delts",
+        "ru": "Задняя дельта"
+      }
+    },
+    {
+      "id": "rotator_cuff",
+      "group": "back_pull",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Rotator cuff",
+        "ru": "Вращательная манжета"
+      },
+      "note": "External rotators plus supraspinatus.",
+      "short": {
+        "en": "Rotator cuff",
+        "ru": "Манжета плеча"
+      }
+    },
+    {
+      "id": "chest",
+      "group": "push",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Chest",
+        "ru": "Грудь"
+      }
+    },
+    {
+      "id": "triceps",
+      "group": "push",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Triceps",
+        "ru": "Трицепс"
+      }
+    },
+    {
+      "id": "front_delts",
+      "group": "push",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Front delts",
+        "ru": "Передняя дельта"
+      }
+    },
+    {
+      "id": "side_delts",
+      "group": "push",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Side delts",
+        "ru": "Средняя дельта"
+      }
+    },
+    {
+      "id": "abs_core",
+      "group": "core",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Abs & core",
+        "ru": "Пресс и кор"
+      }
+    },
+    {
+      "id": "hip_flexors",
+      "group": "core",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Hip flexors",
+        "ru": "Сгибатели бедра"
+      },
+      "short": {
+        "en": "Hip flexors",
+        "ru": "Сгиб. бедра"
+      }
+    },
+    {
+      "id": "lower_back",
+      "group": "core",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Lower back",
+        "ru": "Поясница"
+      }
+    },
+    {
+      "id": "glutes",
+      "group": "legs",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Glutes",
+        "ru": "Ягодицы"
+      }
+    },
+    {
+      "id": "abductors",
+      "group": "legs",
+      "body": [
+        "front",
+        "back"
+      ],
+      "name": {
+        "en": "Hip abductors",
+        "ru": "Отводящие бедра"
+      },
+      "short": {
+        "en": "Abductors",
+        "ru": "Отводящие"
+      }
+    },
+    {
+      "id": "adductors",
+      "group": "legs",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Adductors",
+        "ru": "Приводящие бедра"
+      },
+      "short": {
+        "en": "Adductors",
+        "ru": "Приводящие"
+      }
+    },
+    {
+      "id": "quads",
+      "group": "legs",
+      "body": [
+        "front"
+      ],
+      "name": {
+        "en": "Quads",
+        "ru": "Квадрицепс"
+      }
+    },
+    {
+      "id": "hamstrings",
+      "group": "legs",
+      "body": [
+        "back"
+      ],
+      "name": {
+        "en": "Hamstrings",
+        "ru": "Задняя поверхность бедра"
+      },
+      "short": {
+        "en": "Hamstrings",
+        "ru": "Бицепс бедра"
+      }
+    },
+    {
+      "id": "calves",
+      "group": "legs",
+      "body": [
+        "front",
+        "back"
+      ],
+      "name": {
+        "en": "Calves",
+        "ru": "Икры"
+      }
+    }
+  ]
+}

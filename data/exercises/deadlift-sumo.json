@@ -1,0 +1,39 @@
+{
+  "id": "deadlift-sumo",
+  "name": {
+    "en": "Deadlift (sumo)",
+    "ru": "Становая тяга сумо"
+  },
+  "short": {
+    "en": "Sumo deadlift",
+    "ru": "Сумо"
+  },
+  "aliases": [
+    "deadlift (sumo)"
+  ],
+  "equipment": [
+    "barbell"
+  ],
+  "weights": {
+    "finger_flexors": 0.5,
+    "wrist_flexors": 0.6,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.2,
+    "lats": 0.2,
+    "mid_lower_trap": 0.3,
+    "upper_trap": 0.4,
+    "abs_core": 0.5,
+    "lower_back": 0.7,
+    "glutes": 1,
+    "abductors": 0.3,
+    "adductors": 0.6,
+    "quads": 0.7,
+    "hamstrings": 0.9,
+    "calves": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

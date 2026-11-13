@@ -1,0 +1,35 @@
+{
+  "id": "leg-raise",
+  "name": {
+    "en": "Leg raise",
+    "ru": "Подъём ног в висе"
+  },
+  "short": {
+    "en": "Leg raises",
+    "ru": "Подъём ног"
+  },
+  "aliases": [
+    "leg raise"
+  ],
+  "equipment": [
+    "bar"
+  ],
+  "weights": {
+    "finger_flexors": 0.4,
+    "wrist_flexors": 0.3,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.1,
+    "biceps": 0.1,
+    "lats": 0.2,
+    "mid_lower_trap": 0.1,
+    "upper_trap": 0.1,
+    "abs_core": 1,
+    "hip_flexors": 0.8,
+    "quads": 0.1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "dumbbell-lateral-raise",
+  "name": {
+    "en": "Dumbbell lateral raise",
+    "ru": "Махи гантелями в стороны"
+  },
+  "short": {
+    "en": "DB lateral raise",
+    "ru": "Махи гантелями"
+  },
+  "aliases": [
+    "dumbbell lateral raise"
+  ],
+  "equipment": [
+    "dumbbell"
+  ],
+  "weights": {
+    "mid_lower_trap": 0.1,
+    "upper_trap": 0.3,
+    "rotator_cuff": 0.3,
+    "front_delts": 0.3,
+    "side_delts": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

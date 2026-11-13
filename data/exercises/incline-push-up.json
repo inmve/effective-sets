@@ -1,0 +1,27 @@
+{
+  "id": "incline-push-up",
+  "name": {
+    "en": "Incline push-up",
+    "ru": "Отжимания с упором (наклонные)"
+  },
+  "short": {
+    "en": "Incline push-ups",
+    "ru": "Отжим. с упором"
+  },
+  "aliases": [
+    "incline push-up"
+  ],
+  "equipment": [],
+  "weights": {
+    "mid_lower_trap": 0.1,
+    "chest": 1,
+    "triceps": 0.65,
+    "front_delts": 0.6,
+    "abs_core": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "step-up",
+  "name": {
+    "en": "Step-up",
+    "ru": "Зашагивания"
+  },
+  "short": {
+    "en": "Step-ups",
+    "ru": "Зашагивания"
+  },
+  "aliases": [
+    "step-up"
+  ],
+  "equipment": [
+    "box"
+  ],
+  "weights": {
+    "abs_core": 0.2,
+    "hip_flexors": 0.3,
+    "lower_back": 0.2,
+    "glutes": 0.8,
+    "abductors": 0.4,
+    "adductors": 0.2,
+    "quads": 1,
+    "hamstrings": 0.4,
+    "calves": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

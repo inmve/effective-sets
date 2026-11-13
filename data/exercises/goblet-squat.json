@@ -1,0 +1,33 @@
+{
+  "id": "goblet-squat",
+  "name": {
+    "en": "Goblet squat",
+    "ru": "Гоблет-присед"
+  },
+  "short": {
+    "en": "Goblet squat",
+    "ru": "Гоблет-присед"
+  },
+  "aliases": [
+    "goblet squat"
+  ],
+  "equipment": [],
+  "weights": {
+    "finger_flexors": 0.1,
+    "wrist_flexors": 0.2,
+    "finger_tendons": 0.1,
+    "abs_core": 0.5,
+    "lower_back": 0.5,
+    "glutes": 0.9,
+    "abductors": 0.2,
+    "adductors": 0.4,
+    "quads": 1,
+    "hamstrings": 0.5,
+    "calves": 0.3
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

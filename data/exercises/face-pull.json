@@ -1,0 +1,28 @@
+{
+  "id": "face-pull",
+  "name": {
+    "en": "Face pull",
+    "ru": "Тяга к лицу"
+  },
+  "short": {
+    "en": "Face pulls",
+    "ru": "Тяга к лицу"
+  },
+  "aliases": [
+    "face pull"
+  ],
+  "equipment": [],
+  "weights": {
+    "biceps": 0.1,
+    "mid_lower_trap": 0.5,
+    "upper_trap": 0.2,
+    "rear_delts": 1,
+    "rotator_cuff": 0.5,
+    "side_delts": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

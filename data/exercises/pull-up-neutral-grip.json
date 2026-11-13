@@ -1,0 +1,36 @@
+{
+  "id": "pull-up-neutral-grip",
+  "name": {
+    "en": "Pull-up neutral grip",
+    "ru": "Подтягивания нейтральным хватом"
+  },
+  "short": {
+    "en": "Neutral pull-ups",
+    "ru": "Подтяг. нейтральным"
+  },
+  "aliases": [
+    "pull-up neutral grip"
+  ],
+  "equipment": [
+    "bar"
+  ],
+  "weights": {
+    "finger_flexors": 0.4,
+    "wrist_flexors": 0.4,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.1,
+    "brachioradialis": 0.6,
+    "biceps": 0.65,
+    "brachialis": 0.5,
+    "lats": 1,
+    "mid_lower_trap": 0.55,
+    "upper_trap": 0.1,
+    "rear_delts": 0.35,
+    "abs_core": 0.3
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

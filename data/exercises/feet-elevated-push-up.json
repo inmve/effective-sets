@@ -1,0 +1,27 @@
+{
+  "id": "feet-elevated-push-up",
+  "name": {
+    "en": "Feet-elevated push-up",
+    "ru": "Отжимания с ногами на возвышении"
+  },
+  "short": {
+    "en": "Feet-up push-ups",
+    "ru": "Отжим. ноги выше"
+  },
+  "aliases": [
+    "feet-elevated push-up"
+  ],
+  "equipment": [],
+  "weights": {
+    "mid_lower_trap": 0.1,
+    "chest": 1,
+    "triceps": 0.6,
+    "front_delts": 0.8,
+    "abs_core": 0.3
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

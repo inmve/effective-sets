@@ -1,0 +1,26 @@
+{
+  "id": "leg-extension",
+  "name": {
+    "en": "Leg extension",
+    "ru": "Разгибание ног в тренажёре"
+  },
+  "short": {
+    "en": "Leg extension",
+    "ru": "Разгибание ног"
+  },
+  "aliases": [
+    "leg extension"
+  ],
+  "equipment": [
+    "machine"
+  ],
+  "weights": {
+    "hip_flexors": 0.1,
+    "quads": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

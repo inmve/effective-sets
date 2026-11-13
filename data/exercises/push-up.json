@@ -1,0 +1,27 @@
+{
+  "id": "push-up",
+  "name": {
+    "en": "Push-up",
+    "ru": "Отжимания"
+  },
+  "short": {
+    "en": "Push-ups",
+    "ru": "Отжимания"
+  },
+  "aliases": [
+    "push-up"
+  ],
+  "equipment": [],
+  "weights": {
+    "mid_lower_trap": 0.1,
+    "chest": 1,
+    "triceps": 0.7,
+    "front_delts": 0.6,
+    "abs_core": 0.3
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

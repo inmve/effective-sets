@@ -1,0 +1,31 @@
+{
+  "id": "dead-hang-open-hand",
+  "name": {
+    "en": "Dead hang (open hand)",
+    "ru": "Вис открытым хватом"
+  },
+  "short": {
+    "en": "Dead hang",
+    "ru": "Вис"
+  },
+  "aliases": [
+    "dead hang (open hand)"
+  ],
+  "equipment": [
+    "bar"
+  ],
+  "weights": {
+    "finger_flexors": 1,
+    "wrist_flexors": 0.7,
+    "wrist_finger_extensors": 0.2,
+    "finger_tendons": 0.2,
+    "lats": 0.1,
+    "mid_lower_trap": 0.2,
+    "upper_trap": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

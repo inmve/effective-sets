@@ -1,0 +1,25 @@
+{
+  "id": "single-arm-cable-triceps-extension",
+  "name": {
+    "en": "Single-arm cable triceps extension",
+    "ru": "Разгибание на трицепс одной рукой в блоке"
+  },
+  "short": {
+    "en": "1-arm cable triceps",
+    "ru": "Трицепс 1 рукой"
+  },
+  "aliases": [
+    "single-arm cable triceps extension"
+  ],
+  "equipment": [
+    "cable"
+  ],
+  "weights": {
+    "triceps": 1
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

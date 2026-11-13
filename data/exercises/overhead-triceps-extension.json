@@ -1,0 +1,24 @@
+{
+  "id": "overhead-triceps-extension",
+  "name": {
+    "en": "Overhead triceps extension",
+    "ru": "Разгибание на трицепс из-за головы"
+  },
+  "short": {
+    "en": "Overhead triceps",
+    "ru": "Трицепс из-за головы"
+  },
+  "aliases": [
+    "overhead triceps extension"
+  ],
+  "equipment": [],
+  "weights": {
+    "triceps": 1,
+    "front_delts": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dips",
+  "name": {
+    "en": "Dips",
+    "ru": "Отжимания на брусьях"
+  },
+  "short": {
+    "en": "Dips",
+    "ru": "Брусья"
+  },
+  "aliases": [
+    "dips"
+  ],
+  "equipment": [
+    "parallel-bars"
+  ],
+  "weights": {
+    "mid_lower_trap": 0.2,
+    "upper_trap": 0.1,
+    "chest": 0.8,
+    "triceps": 1,
+    "front_delts": 0.6,
+    "abs_core": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

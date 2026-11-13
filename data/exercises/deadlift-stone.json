@@ -1,0 +1,37 @@
+{
+  "id": "deadlift-stone",
+  "name": {
+    "en": "Deadlift (stone)",
+    "ru": "Становая тяга с камнем"
+  },
+  "short": {
+    "en": "Stone deadlift",
+    "ru": "Становая с камнем"
+  },
+  "aliases": [
+    "deadlift (stone)"
+  ],
+  "equipment": [
+    "stone"
+  ],
+  "weights": {
+    "finger_flexors": 0.5,
+    "wrist_flexors": 0.6,
+    "wrist_finger_extensors": 0.1,
+    "finger_tendons": 0.2,
+    "mid_lower_trap": 0.3,
+    "upper_trap": 0.4,
+    "abs_core": 0.5,
+    "lower_back": 0.9,
+    "glutes": 0.9,
+    "adductors": 0.3,
+    "quads": 0.5,
+    "hamstrings": 1,
+    "calves": 0.2
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}

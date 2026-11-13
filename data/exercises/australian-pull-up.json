@@ -1,0 +1,35 @@
+{
+  "id": "australian-pull-up",
+  "name": {
+    "en": "Australian pull-up",
+    "ru": "Австралийские подтягивания"
+  },
+  "short": {
+    "en": "Australian rows",
+    "ru": "Австралийские"
+  },
+  "aliases": [
+    "australian pull-up"
+  ],
+  "equipment": [
+    "low-bar"
+  ],
+  "weights": {
+    "finger_flexors": 0.3,
+    "wrist_flexors": 0.3,
+    "wrist_finger_extensors": 0.1,
+    "brachioradialis": 0.3,
+    "biceps": 0.5,
+    "brachialis": 0.3,
+    "lats": 0.6,
+    "mid_lower_trap": 1,
+    "upper_trap": 0.2,
+    "rear_delts": 0.7,
+    "abs_core": 0.4
+  },
+  "source": {
+    "kind": "estimate",
+    "by": "Ivan's training log",
+    "date": "2026-06-04"
+  }
+}
