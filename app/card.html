@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Effective sets</title>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <form class="controls" id="controls">
+    <a id="toLog" href="log.html" data-i18n="card.toLog"></a>
+    <label><span data-i18n="controls.session"></span> <select id="date"></select></label>
+    <label><span data-i18n="controls.language"></span> <select id="lang"></select></label>
+  </form>
+
+  <div class="card" id="card">
+    <div class="date" id="cardDate"></div>
+    <div class="hero"><b id="total"></b><span id="totalLabel"></span></div>
+    <div class="sub" id="sub"></div>
+
+    <div class="maps">
+      <figure><svg id="front" viewBox="0 0 100 200"></svg><figcaption data-i18n="card.front"></figcaption></figure>
+      <figure><svg id="back" viewBox="0 0 100 200"></svg><figcaption data-i18n="card.back"></figcaption></figure>
+    </div>
+    <div class="legend" id="legend"></div>
+
+    <h3 data-i18n="card.topMuscles"></h3>
+    <div class="top" id="top"></div>
+    <div class="tendon" id="tendon"></div>
+
+    <h3 data-i18n="card.exercises"></h3>
+    <div class="ex" id="ex"></div>
+
+    <div class="foot"><span data-i18n="card.honesty"></span><span data-i18n="card.rule"></span></div>
+  </div>
+
+  <script type="module" src="card.js"></script>
+</body>
+</html>

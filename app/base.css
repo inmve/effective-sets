@@ -1,0 +1,31 @@
+:root {
+  --page: #111113;
+  --card: #0d0d0f;
+  --surface: #1b1b1f;
+  --ink: #f4f1ec;
+  --muted: #8d8a85;
+  --line: #2a2a2f;
+  --body: #2b2b30;
+  --accent: #ff8a3d;
+  --accent-ink: #1a0d05;
+  /* heat scale: effective sets per muscle */
+  --heat-1: #4a2a1f;
+  --heat-2: #8a3a18;
+  --heat-3: #d4541c;
+  --heat-4: #ff8a3d;
+  --heat-5: #ffd27a;
+}
+* { box-sizing: border-box; margin: 0; }
+html, body { background: var(--page); color: var(--ink); }
+body { font: 15px/1.35 system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-tap-highlight-color: transparent; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { color: inherit; }
+
+.btn-primary {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 56px; padding: 0 28px; border: 0; border-radius: 28px;
+  background: var(--accent); color: var(--accent-ink); font-weight: 700; font-size: 18px; text-decoration: none;
+}
+.btn-primary:active { transform: scale(.98); }
+.muted { color: var(--muted); }
