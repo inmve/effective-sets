@@ -21,8 +21,11 @@
 - No CSV import into the app; no PNG export of the card.
 - localStorage can be wiped by the browser; IndexedDB + export reminder would be safer later.
 
+- Repo is public but has **no licence file** yet (Ivan to choose; proposal: data CC BY 4.0, code MIT).
+- Pages serves `feature/start-screen`; after PRs merge, switch the Pages source to `main`.
+
 **What's next**
-1. Ivan tries it on the phone in the gym.
+1. Ivan tries it on the phone in the gym: https://inmve.github.io/effective-sets/
 2. PNG export of the card at 1080×1920 + Web Share.
 3. Import his existing CSV log into the app.
 
@@ -32,6 +35,8 @@
 - 2026-11-13 — `app/index.html`, `app/log.html|css|js`, `app/store.js`, `app/base.css`; card moved to `app/card.html` and reads local sessions.
 - 2026-11-13 — Locale keys `home.*`, `log.*`, `card.toLog`, `card.example` in ru and en.
 - 2026-11-13 — Checked in headless Chrome at 390×844; fixed search ranking.
+- 2026-11-13 — GitHub: private repo inmve/effective-sets, PR 1 (exercise-db→main), PR 2 (this branch). Pages refused on the free plan for a private repo (HTTP 422).
+- 2026-11-13 — Ivan chose to make the repo public. Pages live at https://inmve.github.io/effective-sets/ from branch `feature/start-screen` (root index.html redirects to app/, `.nojekyll`). Same click-through passed on the live site, console clean.
 
 ## Decisions
 - **One button for during and after** — Ivan's choice from two sketches. Options: (a) one button, editable date; (b) «Начать» + «уже потренировался?» link. Chose (a): the log screen does not depend on a timer, so the same screen serves both.
