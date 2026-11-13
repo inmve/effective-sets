@@ -1,8 +1,10 @@
 import { computeVolume, indexExercises, parseSessionLog, workingSets } from "../src/compute.js";
 import { drawBody } from "../src/body.js";
 import { loadLocale, LANGS } from "../src/i18n.js";
+import { toEntries } from "../src/sessions.js";
+import { loadSessions, pickLang } from "./store.js";
 
-const SESSION_LOG = "../examples/ivan/session_log.csv";
+const SESSION_LOG = "../examples/ivan/session_log.csv"; // example sessions, shown next to your own
 const MAX_EXERCISE_ROWS = 14;
 // Absolute bins, so cards from different days are comparable: [upper limit, colour token]
 const BINS = [[0.05, "--body"], [1, "--heat-1"], [2, "--heat-2"], [3.5, "--heat-3"], [5, "--heat-4"], [Infinity, "--heat-5"]];
@@ -10,22 +12,26 @@ const heat = v => `var(${BINS.find(([lim]) => v < lim)[1]})`;
 const $ = id => document.getElementById(id);
 
 const params = new URLSearchParams(location.search);
-const lang = LANGS.includes(params.get("lang")) ? params.get("lang") : "ru";
+const lang = pickLang(LANGS);
 
 const [t, db, log] = await Promise.all([
   loadLocale(lang),
   fetch("../data/bundle.json").then(r => r.json()),
-  fetch(SESSION_LOG).then(r => r.text()),
+  fetch(SESSION_LOG).then(r => (r.ok ? r.text() : "date,exercise,sets")),
 ]);
-const sessions = parseSessionLog(log);
+// Your logged sessions win over an example session on the same date.
+const own = toEntries(loadSessions());
+const sessions = new Map([...parseSessionLog(log), ...own]);
 const dates = [...sessions.keys()].sort().reverse();
 const date = sessions.has(params.get("date")) ? params.get("date") : dates[0];
+const optionLabel = d => (own.has(d) ? d : `${d} · ${t("card.example")}`);
 const find = indexExercises(db.exercises);
 const muscleName = Object.fromEntries(db.muscles.map(m => [m.id, m.name[lang]]));
 const muscleShort = Object.fromEntries(db.muscles.map(m => [m.id, m.short?.[lang] ?? m.name[lang]]));
 
 /* controls (not part of the card) */
-$("date").innerHTML = dates.map(d => `<option ${d === date ? "selected" : ""}>${d}</option>`).join("");
+$("date").innerHTML = dates.map(d => `<option value="${d}" ${d === date ? "selected" : ""}>${optionLabel(d)}</option>`).join("");
+$("toLog").href = `log.html?date=${date}`;
 $("lang").innerHTML = LANGS.map(l => `<option ${l === lang ? "selected" : ""}>${l}</option>`).join("");
 $("controls").addEventListener("change", () => {
   location.search = new URLSearchParams({ date: $("date").value, lang: $("lang").value });

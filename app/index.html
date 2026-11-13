@@ -2,37 +2,38 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111113">
 <title>Effective sets</title>
-<link rel="stylesheet" href="card.css">
+<link rel="stylesheet" href="base.css">
+<style>
+  body { min-height: 100svh; display: grid; place-items: center; padding: 24px 16px; text-align: center; }
+  main { display: grid; gap: 28px; justify-items: center; }
+  h1 { font-size: clamp(30px, 9vw, 44px); line-height: 1.1; letter-spacing: -.02em; font-weight: 800; max-width: 12ch; }
+  #today { min-height: 1.4em; font-size: 14px; }
+</style>
 </head>
 <body>
-  <form class="controls" id="controls">
-    <label><span data-i18n="controls.session"></span> <select id="date"></select></label>
-    <label><span data-i18n="controls.language"></span> <select id="lang"></select></label>
-  </form>
+  <main>
+    <h1 data-i18n="home.question"></h1>
+    <a class="btn-primary" id="go" href="log.html"></a>
+    <p class="muted" id="today"></p>
+  </main>
+<script type="module">
+  import { loadLocale, LANGS } from "../src/i18n.js";
+  import { today, totalSets } from "../src/sessions.js";
+  import { loadSessions, pickLang } from "./store.js";
 
-  <div class="card" id="card">
-    <div class="date" id="cardDate"></div>
-    <div class="hero"><b id="total"></b><span id="totalLabel"></span></div>
-    <div class="sub" id="sub"></div>
+  const lang = pickLang(LANGS);
+  const t = await loadLocale(lang);
+  document.documentElement.lang = lang;
+  document.title = t("app.title");
+  document.querySelectorAll("[data-i18n]").forEach(n => { n.textContent = t(n.dataset.i18n); });
 
-    <div class="maps">
-      <figure><svg id="front" viewBox="0 0 100 200"></svg><figcaption data-i18n="card.front"></figcaption></figure>
-      <figure><svg id="back" viewBox="0 0 100 200"></svg><figcaption data-i18n="card.back"></figcaption></figure>
-    </div>
-    <div class="legend" id="legend"></div>
-
-    <h3 data-i18n="card.topMuscles"></h3>
-    <div class="top" id="top"></div>
-    <div class="tendon" id="tendon"></div>
-
-    <h3 data-i18n="card.exercises"></h3>
-    <div class="ex" id="ex"></div>
-
-    <div class="foot"><span data-i18n="card.honesty"></span><span data-i18n="card.rule"></span></div>
-  </div>
-
-  <script type="module" src="card.js"></script>
+  // Same button during and after a workout: it opens today's log; if sets are already there, it continues.
+  const done = totalSets(loadSessions(), today());
+  document.getElementById("go").textContent = t(done ? "home.continue" : "home.start");
+  if (done) document.getElementById("today").textContent = t.n("home.todaySets", done, { n: t.num(done) });
+</script>
 </body>
 </html>
